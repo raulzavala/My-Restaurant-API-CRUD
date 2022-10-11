@@ -19,6 +19,8 @@ app.post('/restaurant',(req,res)=>{
 
 })
 
-app.listen(3000, ()=>{
-    console.log('Console running on port 3000');
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, ()=>{
+    console.log(`Console running on port ${PORT}`);
 })
