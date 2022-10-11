@@ -9,7 +9,7 @@
             "url":"https://opensource.org/licenses/MIT"
         }
     },
-    "host":"my-restaurant-app-zavala.herokuapp.com:3000",
+    "host":"my-restaurant-app-zavala.herokuapp.com",
     "basePath":"/",
     "tags":{
         "name":"Restaurants",
